@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Die Gitter und Hubber"
+        android:text="Nutten und Koks"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -48,5 +48,13 @@
         android:text="CheckBox"
         android:layout_below="@+id/switch2"
         android:layout_toEndOf="@+id/neueidtext" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button3"
+        android:layout_below="@+id/switch2"
+        android:text="Button" />
 
 </RelativeLayout>
