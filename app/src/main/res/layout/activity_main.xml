@@ -49,4 +49,13 @@
         android:layout_below="@+id/switch2"
         android:layout_toEndOf="@+id/neueidtext" />
 
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="29dp"
+        android:layout_toStartOf="@+id/checkBox2"
+        android:text="Button" />
+
 </RelativeLayout>
